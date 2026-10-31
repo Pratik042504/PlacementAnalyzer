@@ -5,7 +5,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/goals")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://placement-analyzer-byx627127-hh-868b.vercel.app"
+})
 public class LearningGoalController {
     private final LearningGoalRepository repository;
 

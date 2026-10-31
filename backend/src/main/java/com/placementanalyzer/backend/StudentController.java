@@ -6,7 +6,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://placement-analyzer-byx627127-hh-868b.vercel.app"
+})
 public class StudentController {
 
     private final StudentRepository repository;
