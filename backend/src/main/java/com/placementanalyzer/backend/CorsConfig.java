@@ -1,5 +1,5 @@
 
-package com.placementanalyzer.backend.config;
+package com.placementanalyzer.backend;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
